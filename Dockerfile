@@ -2,7 +2,7 @@
 FROM openjdk:8-jdk-alpine
 
 #copy hello world to docker image
-ADD ./target/hello-world-0.1.0.jar /data/hello-world-0.1.0.jar
+ADD ./data/hello-world-0.1.0.jar /data/hello-world-0.1.0.jar
 
 
 #expose port 8080
